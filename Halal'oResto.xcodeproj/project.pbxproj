@@ -14,17 +14,6 @@
 		7EA362172020587700BBAABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA362152020587700BBAABF /* LaunchScreen.storyboard */; };
 		7EA362222020587700BBAABF /* Halal_oRestoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA362212020587700BBAABF /* Halal_oRestoTests.swift */; };
 		7EA3622D2020587700BBAABF /* Halal_oRestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */; };
-		90E4AF5E2020613700275118 /* logoGOA.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF5D2020613600275118 /* logoGOA.png */; };
-		90E4AF632020626C00275118 /* Goa-Text.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF5F2020626B00275118 /* Goa-Text.tiff */; };
-		90E4AF642020626C00275118 /* plat-Goa3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF602020626B00275118 /* plat-Goa3.tiff */; };
-		90E4AF652020626C00275118 /* plat-Goa1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF612020626B00275118 /* plat-Goa1.tiff */; };
-		90E4AF662020626C00275118 /* plat-Goa2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF622020626C00275118 /* plat-Goa2.tiff */; };
-		90E4AF6A2020651A00275118 /* Image1-Chicken-Alpes.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF692020651900275118 /* Image1-Chicken-Alpes.tiff */; };
-		90E4AF702020652500275118 /* Image2-Chicken-Alpes.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF6B2020652400275118 /* Image2-Chicken-Alpes.tiff */; };
-		90E4AF712020652500275118 /* Menu.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF6C2020652400275118 /* Menu.tiff */; };
-		90E4AF722020652500275118 /* Titre-Chicken-Alpes.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF6D2020652400275118 /* Titre-Chicken-Alpes.tiff */; };
-		90E4AF732020652500275118 /* logo-Chicken-Alpes.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF6E2020652400275118 /* logo-Chicken-Alpes.tiff */; };
-		90E4AF742020652500275118 /* Image3-Chicken-Alpes.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 90E4AF6F2020652500275118 /* Image3-Chicken-Alpes.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,17 +47,6 @@
 		7EA362282020587700BBAABF /* Halal'oRestoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Halal'oRestoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halal_oRestoUITests.swift; sourceTree = "<group>"; };
 		7EA3622E2020587700BBAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90E4AF5D2020613600275118 /* logoGOA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoGOA.png; path = Images/logoGOA.png; sourceTree = "<group>"; };
-		90E4AF5F2020626B00275118 /* Goa-Text.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Goa-Text.tiff"; path = "Images/Goa-Text.tiff"; sourceTree = "<group>"; };
-		90E4AF602020626B00275118 /* plat-Goa3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "plat-Goa3.tiff"; path = "Images/plat-Goa3.tiff"; sourceTree = "<group>"; };
-		90E4AF612020626B00275118 /* plat-Goa1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "plat-Goa1.tiff"; path = "Images/plat-Goa1.tiff"; sourceTree = "<group>"; };
-		90E4AF622020626C00275118 /* plat-Goa2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "plat-Goa2.tiff"; path = "Images/plat-Goa2.tiff"; sourceTree = "<group>"; };
-		90E4AF692020651900275118 /* Image1-Chicken-Alpes.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Image1-Chicken-Alpes.tiff"; path = "Images/Image1-Chicken-Alpes.tiff"; sourceTree = "<group>"; };
-		90E4AF6B2020652400275118 /* Image2-Chicken-Alpes.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Image2-Chicken-Alpes.tiff"; path = "Images/Image2-Chicken-Alpes.tiff"; sourceTree = "<group>"; };
-		90E4AF6C2020652400275118 /* Menu.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Menu.tiff; path = Images/Menu.tiff; sourceTree = "<group>"; };
-		90E4AF6D2020652400275118 /* Titre-Chicken-Alpes.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Titre-Chicken-Alpes.tiff"; path = "Images/Titre-Chicken-Alpes.tiff"; sourceTree = "<group>"; };
-		90E4AF6E2020652400275118 /* logo-Chicken-Alpes.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "logo-Chicken-Alpes.tiff"; path = "Images/logo-Chicken-Alpes.tiff"; sourceTree = "<group>"; };
-		90E4AF6F2020652500275118 /* Image3-Chicken-Alpes.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Image3-Chicken-Alpes.tiff"; path = "Images/Image3-Chicken-Alpes.tiff"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,17 +81,6 @@
 				7EA362202020587700BBAABF /* Halal'oRestoTests */,
 				7EA3622B2020587700BBAABF /* Halal'oRestoUITests */,
 				7EA3620A2020587700BBAABF /* Products */,
-				90E4AF5D2020613600275118 /* logoGOA.png */,
-				90E4AF5F2020626B00275118 /* Goa-Text.tiff */,
-				90E4AF612020626B00275118 /* plat-Goa1.tiff */,
-				90E4AF622020626C00275118 /* plat-Goa2.tiff */,
-				90E4AF602020626B00275118 /* plat-Goa3.tiff */,
-				90E4AF692020651900275118 /* Image1-Chicken-Alpes.tiff */,
-				90E4AF6B2020652400275118 /* Image2-Chicken-Alpes.tiff */,
-				90E4AF6F2020652500275118 /* Image3-Chicken-Alpes.tiff */,
-				90E4AF6E2020652400275118 /* logo-Chicken-Alpes.tiff */,
-				90E4AF6C2020652400275118 /* Menu.tiff */,
-				90E4AF6D2020652400275118 /* Titre-Chicken-Alpes.tiff */,
 			);
 			sourceTree = "<group>";
 		};
@@ -265,20 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90E4AF742020652500275118 /* Image3-Chicken-Alpes.tiff in Resources */,
 				7EA362172020587700BBAABF /* LaunchScreen.storyboard in Resources */,
-				90E4AF702020652500275118 /* Image2-Chicken-Alpes.tiff in Resources */,
-				90E4AF642020626C00275118 /* plat-Goa3.tiff in Resources */,
-				90E4AF652020626C00275118 /* plat-Goa1.tiff in Resources */,
-				90E4AF632020626C00275118 /* Goa-Text.tiff in Resources */,
-				90E4AF6A2020651A00275118 /* Image1-Chicken-Alpes.tiff in Resources */,
-				90E4AF712020652500275118 /* Menu.tiff in Resources */,
-				90E4AF662020626C00275118 /* plat-Goa2.tiff in Resources */,
 				7EA362142020587700BBAABF /* Assets.xcassets in Resources */,
-				90E4AF732020652500275118 /* logo-Chicken-Alpes.tiff in Resources */,
-				90E4AF5E2020613700275118 /* logoGOA.png in Resources */,
 				7EA362122020587700BBAABF /* Main.storyboard in Resources */,
-				90E4AF722020652500275118 /* Titre-Chicken-Alpes.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
