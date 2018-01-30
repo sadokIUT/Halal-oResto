@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EA3620D2020587700BBAABF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3620C2020587700BBAABF /* AppDelegate.swift */; };
+		7EA3620F2020587700BBAABF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3620E2020587700BBAABF /* ViewController.swift */; };
+		7EA362122020587700BBAABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA362102020587700BBAABF /* Main.storyboard */; };
+		7EA362142020587700BBAABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA362132020587700BBAABF /* Assets.xcassets */; };
+		7EA362172020587700BBAABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA362152020587700BBAABF /* LaunchScreen.storyboard */; };
+		7EA362222020587700BBAABF /* Halal_oRestoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA362212020587700BBAABF /* Halal_oRestoTests.swift */; };
+		7EA3622D2020587700BBAABF /* Halal_oRestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EA3621E2020587700BBAABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EA362012020587700BBAABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA362082020587700BBAABF;
+			remoteInfo = "Halal'oResto";
+		};
+		7EA362292020587700BBAABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EA362012020587700BBAABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA362082020587700BBAABF;
+			remoteInfo = "Halal'oResto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EA362092020587700BBAABF /* Halal'oResto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Halal'oResto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA3620C2020587700BBAABF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EA3620E2020587700BBAABF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EA362112020587700BBAABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EA362132020587700BBAABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EA362162020587700BBAABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EA362182020587700BBAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA3621D2020587700BBAABF /* Halal'oRestoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Halal'oRestoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA362212020587700BBAABF /* Halal_oRestoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halal_oRestoTests.swift; sourceTree = "<group>"; };
+		7EA362232020587700BBAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA362282020587700BBAABF /* Halal'oRestoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Halal'oRestoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halal_oRestoUITests.swift; sourceTree = "<group>"; };
+		7EA3622E2020587700BBAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA362062020587700BBAABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA3621A2020587700BBAABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA362252020587700BBAABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EA362002020587700BBAABF = {
+			isa = PBXGroup;
+			children = (
+				7EA3620B2020587700BBAABF /* Halal'oResto */,
+				7EA362202020587700BBAABF /* Halal'oRestoTests */,
+				7EA3622B2020587700BBAABF /* Halal'oRestoUITests */,
+				7EA3620A2020587700BBAABF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA3620A2020587700BBAABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA362092020587700BBAABF /* Halal'oResto.app */,
+				7EA3621D2020587700BBAABF /* Halal'oRestoTests.xctest */,
+				7EA362282020587700BBAABF /* Halal'oRestoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EA3620B2020587700BBAABF /* Halal'oResto */ = {
+			isa = PBXGroup;
+			children = (
+				7EA3620C2020587700BBAABF /* AppDelegate.swift */,
+				7EA3620E2020587700BBAABF /* ViewController.swift */,
+				7EA362102020587700BBAABF /* Main.storyboard */,
+				7EA362132020587700BBAABF /* Assets.xcassets */,
+				7EA362152020587700BBAABF /* LaunchScreen.storyboard */,
+				7EA362182020587700BBAABF /* Info.plist */,
+			);
+			path = "Halal'oResto";
+			sourceTree = "<group>";
+		};
+		7EA362202020587700BBAABF /* Halal'oRestoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EA362212020587700BBAABF /* Halal_oRestoTests.swift */,
+				7EA362232020587700BBAABF /* Info.plist */,
+			);
+			path = "Halal'oRestoTests";
+			sourceTree = "<group>";
+		};
+		7EA3622B2020587700BBAABF /* Halal'oRestoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */,
+				7EA3622E2020587700BBAABF /* Info.plist */,
+			);
+			path = "Halal'oRestoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EA362082020587700BBAABF /* Halal'oResto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA362312020587700BBAABF /* Build configuration list for PBXNativeTarget "Halal'oResto" */;
+			buildPhases = (
+				7EA362052020587700BBAABF /* Sources */,
+				7EA362062020587700BBAABF /* Frameworks */,
+				7EA362072020587700BBAABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Halal'oResto";
+			productName = "Halal'oResto";
+			productReference = 7EA362092020587700BBAABF /* Halal'oResto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EA3621C2020587700BBAABF /* Halal'oRestoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA362342020587700BBAABF /* Build configuration list for PBXNativeTarget "Halal'oRestoTests" */;
+			buildPhases = (
+				7EA362192020587700BBAABF /* Sources */,
+				7EA3621A2020587700BBAABF /* Frameworks */,
+				7EA3621B2020587700BBAABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EA3621F2020587700BBAABF /* PBXTargetDependency */,
+			);
+			name = "Halal'oRestoTests";
+			productName = "Halal'oRestoTests";
+			productReference = 7EA3621D2020587700BBAABF /* Halal'oRestoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EA362272020587700BBAABF /* Halal'oRestoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA362372020587700BBAABF /* Build configuration list for PBXNativeTarget "Halal'oRestoUITests" */;
+			buildPhases = (
+				7EA362242020587700BBAABF /* Sources */,
+				7EA362252020587700BBAABF /* Frameworks */,
+				7EA362262020587700BBAABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EA3622A2020587700BBAABF /* PBXTargetDependency */,
+			);
+			name = "Halal'oRestoUITests";
+			productName = "Halal'oRestoUITests";
+			productReference = 7EA362282020587700BBAABF /* Halal'oRestoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EA362012020587700BBAABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Sadok Ben Fredj";
+				TargetAttributes = {
+					7EA362082020587700BBAABF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					7EA3621C2020587700BBAABF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EA362082020587700BBAABF;
+					};
+					7EA362272020587700BBAABF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EA362082020587700BBAABF;
+					};
+				};
+			};
+			buildConfigurationList = 7EA362042020587700BBAABF /* Build configuration list for PBXProject "Halal'oResto" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EA362002020587700BBAABF;
+			productRefGroup = 7EA3620A2020587700BBAABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA362082020587700BBAABF /* Halal'oResto */,
+				7EA3621C2020587700BBAABF /* Halal'oRestoTests */,
+				7EA362272020587700BBAABF /* Halal'oRestoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EA362072020587700BBAABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA362172020587700BBAABF /* LaunchScreen.storyboard in Resources */,
+				7EA362142020587700BBAABF /* Assets.xcassets in Resources */,
+				7EA362122020587700BBAABF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA3621B2020587700BBAABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA362262020587700BBAABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA362052020587700BBAABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA3620F2020587700BBAABF /* ViewController.swift in Sources */,
+				7EA3620D2020587700BBAABF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA362192020587700BBAABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA362222020587700BBAABF /* Halal_oRestoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA362242020587700BBAABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA3622D2020587700BBAABF /* Halal_oRestoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EA3621F2020587700BBAABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EA362082020587700BBAABF /* Halal'oResto */;
+			targetProxy = 7EA3621E2020587700BBAABF /* PBXContainerItemProxy */;
+		};
+		7EA3622A2020587700BBAABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EA362082020587700BBAABF /* Halal'oResto */;
+			targetProxy = 7EA362292020587700BBAABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EA362102020587700BBAABF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA362112020587700BBAABF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EA362152020587700BBAABF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA362162020587700BBAABF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EA3622F2020587700BBAABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EA362302020587700BBAABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EA362322020587700BBAABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Halal'oResto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smin.Halal-oResto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EA362332020587700BBAABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Halal'oResto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smin.Halal-oResto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EA362352020587700BBAABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Halal'oRestoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smin.Halal-oRestoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halal'oResto.app/Halal'oResto";
+			};
+			name = Debug;
+		};
+		7EA362362020587700BBAABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Halal'oRestoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smin.Halal-oRestoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halal'oResto.app/Halal'oResto";
+			};
+			name = Release;
+		};
+		7EA362382020587700BBAABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Halal'oRestoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smin.Halal-oRestoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Halal'oResto";
+			};
+			name = Debug;
+		};
+		7EA362392020587700BBAABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Halal'oRestoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smin.Halal-oRestoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Halal'oResto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EA362042020587700BBAABF /* Build configuration list for PBXProject "Halal'oResto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA3622F2020587700BBAABF /* Debug */,
+				7EA362302020587700BBAABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA362312020587700BBAABF /* Build configuration list for PBXNativeTarget "Halal'oResto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA362322020587700BBAABF /* Debug */,
+				7EA362332020587700BBAABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA362342020587700BBAABF /* Build configuration list for PBXNativeTarget "Halal'oRestoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA362352020587700BBAABF /* Debug */,
+				7EA362362020587700BBAABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA362372020587700BBAABF /* Build configuration list for PBXNativeTarget "Halal'oRestoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA362382020587700BBAABF /* Debug */,
+				7EA362392020587700BBAABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EA362012020587700BBAABF /* Project object */;
+}
