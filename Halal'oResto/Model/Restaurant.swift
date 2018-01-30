@@ -9,6 +9,7 @@
 import UIKit
 
 class Restaurant: NSObject {
+    var logo: UIImageView ;
     var horraireDebut :Int;
     var horraireFin :Int;
     var telephone:String;

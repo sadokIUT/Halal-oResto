@@ -15,6 +15,7 @@
 		7EA362222020587700BBAABF /* Halal_oRestoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA362212020587700BBAABF /* Halal_oRestoTests.swift */; };
 		7EA3622D2020587700BBAABF /* Halal_oRestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */; };
 		9034AF3020207CB800002D49 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034AF2F20207CB800002D49 /* Restaurant.swift */; };
+		9034AF372020883000002D49 /* RestaurantView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9034AF362020883000002D49 /* RestaurantView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halal_oRestoUITests.swift; sourceTree = "<group>"; };
 		7EA3622E2020587700BBAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9034AF2F20207CB800002D49 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		9034AF362020883000002D49 /* RestaurantView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RestaurantView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				7EA362102020587700BBAABF /* Main.storyboard */,
 				7EA362152020587700BBAABF /* LaunchScreen.storyboard */,
+				9034AF362020883000002D49 /* RestaurantView.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9034AF372020883000002D49 /* RestaurantView.storyboard in Resources */,
 				7EA362172020587700BBAABF /* LaunchScreen.storyboard in Resources */,
 				7EA362142020587700BBAABF /* Assets.xcassets in Resources */,
 				7EA362122020587700BBAABF /* Main.storyboard in Resources */,
