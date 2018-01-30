@@ -14,6 +14,8 @@
 		7EA362172020587700BBAABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA362152020587700BBAABF /* LaunchScreen.storyboard */; };
 		7EA362222020587700BBAABF /* Halal_oRestoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA362212020587700BBAABF /* Halal_oRestoTests.swift */; };
 		7EA3622D2020587700BBAABF /* Halal_oRestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */; };
+		7EA3623B20205FE100BBAABF /* Clouds.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7EA3623A20205FE000BBAABF /* Clouds.tiff */; };
+		7EA3623F202065A900BBAABF /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7EA3623E202065A900BBAABF /* loader.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7EA362282020587700BBAABF /* Halal'oRestoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Halal'oRestoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halal_oRestoUITests.swift; sourceTree = "<group>"; };
 		7EA3622E2020587700BBAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA3623A20205FE000BBAABF /* Clouds.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Clouds.tiff; sourceTree = SOURCE_ROOT; };
+		7EA3623E202065A900BBAABF /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				7EA362102020587700BBAABF /* Main.storyboard */,
 				7EA362132020587700BBAABF /* Assets.xcassets */,
 				7EA362152020587700BBAABF /* LaunchScreen.storyboard */,
+				7EA3623E202065A900BBAABF /* loader.gif */,
+				7EA3623A20205FE000BBAABF /* Clouds.tiff */,
 				7EA362182020587700BBAABF /* Info.plist */,
 			);
 			path = "Halal'oResto";
@@ -232,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA3623B20205FE100BBAABF /* Clouds.tiff in Resources */,
 				7EA362172020587700BBAABF /* LaunchScreen.storyboard in Resources */,
+				7EA3623F202065A900BBAABF /* loader.gif in Resources */,
 				7EA362142020587700BBAABF /* Assets.xcassets in Resources */,
 				7EA362122020587700BBAABF /* Main.storyboard in Resources */,
 			);
