@@ -9,21 +9,22 @@
 import UIKit
 
 class Restaurant: NSObject {
-    var logo: UIImageView ;
+    var logo: UIImage;
     var horraireDebut :Int;
     var horraireFin :Int;
     var telephone:String;
     var adresse:String;
-    var plat: [String: Double];
+   
     
     
-    init(horraireDebut: Int, horraireFin: Int, telephone:String, adresse:String, plat:[String: Double])
+    init(horraireDebut: Int, horraireFin: Int, telephone:String, adresse:String, logo2: UIImage)
     {
         self.horraireDebut = horraireDebut
         self.horraireFin = horraireFin
         self.telephone = telephone
         self.adresse = adresse
-        self.plat = plat
+        self.logo = logo2;
+       
         
     }
     
@@ -46,20 +47,5 @@ class Restaurant: NSObject {
     {
         return adresse
     }
-    
-    func getPlat()
-    {
-        for p in plat
-        {
-            print(p)
-        }
-    }
-    
-    func ajouterPlat(nom: String, prix: Double)
-    {
-        plat[nom] = prix;
-        
-    }
-    
 
 }
