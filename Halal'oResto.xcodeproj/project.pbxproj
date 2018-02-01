@@ -16,6 +16,7 @@
 		7EA3622D2020587700BBAABF /* Halal_oRestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */; };
 		9034AF3020207CB800002D49 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034AF2F20207CB800002D49 /* Restaurant.swift */; };
 		9034AF372020883000002D49 /* RestaurantView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9034AF362020883000002D49 /* RestaurantView.storyboard */; };
+		907EDED22023588100C644D1 /* plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907EDED12023588100C644D1 /* plat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7EA3622E2020587700BBAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9034AF2F20207CB800002D49 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		9034AF362020883000002D49 /* RestaurantView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RestaurantView.storyboard; sourceTree = "<group>"; };
+		907EDED12023588100C644D1 /* plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				9034AF2F20207CB800002D49 /* Restaurant.swift */,
+				907EDED12023588100C644D1 /* plat.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			files = (
 				7EA3620F2020587700BBAABF /* ViewController.swift in Sources */,
 				7EA3620D2020587700BBAABF /* AppDelegate.swift in Sources */,
+				907EDED22023588100C644D1 /* plat.swift in Sources */,
 				9034AF3020207CB800002D49 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
