@@ -8,12 +8,13 @@
 
 import UIKit
 
-class Restaurant: NSObject {
-    var logo: UIImage;
-    var horraireDebut :Int;
-    var horraireFin :Int;
-    var telephone:String;
-    var adresse:String;
+class Restaurant {
+    var logo: UIImage
+    var horraireDebut :Int
+    var horraireFin :Int
+    var telephone:String
+    var adresse:String
+    var plats : [Plat] = []
    
     
     
@@ -42,10 +43,16 @@ class Restaurant: NSObject {
     {
         return telephone
     }
+    func ajouterPlat(plat:Plat)
+    {
+        plats.append(plat);
+    }
     
     func getAdresse() -> String
     {
         return adresse
     }
+    
+    
 
 }

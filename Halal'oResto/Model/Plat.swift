@@ -8,20 +8,20 @@
 
 import UIKit
 
-class plat: NSObject :Restaurant{
+class Plat: NSObject {
 
     var nom:String;
-    var menu:bool;
-    var prix:double;
-    var image:UImage;
+    var menu:Bool;
+    var prix:Double;
+    var image:UIImage;
     
-    init(horraireDebut: Int, horraireFin: Int, telephone:String, adresse:String, logo2: UIImage, nom2:String, menu2:bool, prix2:Double, image2:UIImage)
+    init(nom2:String, menu2:Bool, prix2:Double, image2:UIImage)
     {
         self.nom = nom2;
         self.menu = menu2;
         self.prix = prix2;
         self.image = image2;
-        super.init(horraireDebut: horraireDebut, horraireFin: horraireFin, telephone: telephone, adresse: adresse, logo2: logo2)
+        
     }
     
     func getNom() -> String
@@ -29,12 +29,12 @@ class plat: NSObject :Restaurant{
         return self.nom;
     }
     
-    func getMenu() -> bool
+    func getMenu() -> Bool
     {
         return self.menu;
     }
     
-    func getPrix() -> double
+    func getPrix() -> Double
     {
         return self.prix;
     }
@@ -44,10 +44,10 @@ class plat: NSObject :Restaurant{
         return self.image;
     }
     
-    func IsMenu(menu:bool) -> double
+    func IsMenu(menu:Bool) -> Double
     {
-        if menu=true {
-            prix = prix*1,2
+        if menu == true {
+            prix = prix+1.50
         }
         return prix;
     }
