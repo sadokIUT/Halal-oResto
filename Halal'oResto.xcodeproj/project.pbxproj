@@ -15,8 +15,9 @@
 		7EA362222020587700BBAABF /* Halal_oRestoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA362212020587700BBAABF /* Halal_oRestoTests.swift */; };
 		7EA3622D2020587700BBAABF /* Halal_oRestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */; };
 		9034AF3020207CB800002D49 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034AF2F20207CB800002D49 /* Restaurant.swift */; };
-		9034AF372020883000002D49 /* RestaurantView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9034AF362020883000002D49 /* RestaurantView.storyboard */; };
-		907EDED22023588100C644D1 /* plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907EDED12023588100C644D1 /* plat.swift */; };
+		906AA31E2029BAEB008C441B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AA31D2029BAEB008C441B /* SecondViewController.swift */; };
+		906AA3202029C497008C441B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AA31F2029C497008C441B /* Data.swift */; };
+		907EDED22023588100C644D1 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907EDED12023588100C644D1 /* Plat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,9 @@
 		7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halal_oRestoUITests.swift; sourceTree = "<group>"; };
 		7EA3622E2020587700BBAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9034AF2F20207CB800002D49 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
-		9034AF362020883000002D49 /* RestaurantView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RestaurantView.storyboard; sourceTree = "<group>"; };
-		907EDED12023588100C644D1 /* plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plat.swift; sourceTree = "<group>"; };
+		906AA31D2029BAEB008C441B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		906AA31F2029C497008C441B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		907EDED12023588100C644D1 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				9034AF2F20207CB800002D49 /* Restaurant.swift */,
-				907EDED12023588100C644D1 /* plat.swift */,
+				907EDED12023588100C644D1 /* Plat.swift */,
+				906AA31F2029C497008C441B /* Data.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,7 +148,6 @@
 			children = (
 				7EA362102020587700BBAABF /* Main.storyboard */,
 				7EA362152020587700BBAABF /* LaunchScreen.storyboard */,
-				9034AF362020883000002D49 /* RestaurantView.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				7EA3620E2020587700BBAABF /* ViewController.swift */,
+				906AA31D2029BAEB008C441B /* SecondViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -265,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9034AF372020883000002D49 /* RestaurantView.storyboard in Resources */,
 				7EA362172020587700BBAABF /* LaunchScreen.storyboard in Resources */,
 				7EA362142020587700BBAABF /* Assets.xcassets in Resources */,
 				7EA362122020587700BBAABF /* Main.storyboard in Resources */,
@@ -294,8 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EA3620F2020587700BBAABF /* ViewController.swift in Sources */,
+				906AA3202029C497008C441B /* Data.swift in Sources */,
 				7EA3620D2020587700BBAABF /* AppDelegate.swift in Sources */,
-				907EDED22023588100C644D1 /* plat.swift in Sources */,
+				907EDED22023588100C644D1 /* Plat.swift in Sources */,
+				906AA31E2029BAEB008C441B /* SecondViewController.swift in Sources */,
 				9034AF3020207CB800002D49 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

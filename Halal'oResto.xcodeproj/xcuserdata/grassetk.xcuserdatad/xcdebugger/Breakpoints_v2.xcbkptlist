@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Halal&apos;oResto/Controller/ViewController.swift"
+            timestampString = "539607372.906913"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "variable initialization expression of Halal_oResto.ViewController.p : Halal_oResto.Plat"
+                  moduleName = "Halal&apos;oResto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grassetk/Halal-oResto/Halal&apos;oResto/Controller/ViewController.swift"
+                  timestampString = "539605378.9688489"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Halal_oResto.ViewController.p.getter : Halal_oResto.Plat"
+                  moduleName = "Halal&apos;oResto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grassetk/Halal-oResto/Halal&apos;oResto/Controller/ViewController.swift"
+                  timestampString = "539605378.970619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Halal_oResto.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Halal_oResto.ViewController"
+                  moduleName = "Halal&apos;oResto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grassetk/Halal-oResto/Halal&apos;oResto/Controller/ViewController.swift"
+                  timestampString = "539605378.9724081"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "676">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Halal_oResto.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Halal_oResto.ViewController&gt;"
+                  moduleName = "Halal&apos;oResto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grassetk/Halal-oResto/Halal&apos;oResto/Controller/ViewController.swift"
+                  timestampString = "539605378.973824"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "597">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
