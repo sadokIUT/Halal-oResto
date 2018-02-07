@@ -9,6 +9,7 @@
 import UIKit
 
 class Restaurant {
+    var nom: String
     var logo: UIImage
     var horraireDebut :Int
     var horraireFin :Int
@@ -18,8 +19,9 @@ class Restaurant {
    
     
     
-    init(horraireDebut: Int, horraireFin: Int, telephone:String, adresse:String, logo2: UIImage)
+    init(nom: String, horraireDebut: Int, horraireFin: Int, telephone:String, adresse:String, logo2: UIImage)
     {
+        self.nom = nom
         self.horraireDebut = horraireDebut
         self.horraireFin = horraireFin
         self.telephone = telephone
@@ -27,6 +29,11 @@ class Restaurant {
         self.logo = logo2;
        
         
+    }
+    
+    func getNom() -> String
+    {
+        return nom
     }
     
     func getHorraireDebut() -> Int
