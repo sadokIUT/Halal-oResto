@@ -12,8 +12,31 @@ import UIKit
 class SecondViewController: UIViewController {
     
     
+    // Top Section logo
+        @IBOutlet weak var logoRest: UIImageView!
+    
+    //Stuff for first menu
+        @IBOutlet weak var nomPlat1: UILabel!
+        @IBOutlet weak var imgPlat1: UIImageView!
+        @IBOutlet weak var prixAvecMenu: UILabel!
+        @IBOutlet weak var prixSansMenu: UILabel!
+    
+    // Stuff for second menu
+        @IBOutlet weak var nomPlat2: UILabel!
+        @IBOutlet weak var imgPlat2: UIImageView!
+        @IBOutlet weak var prixSansMenu2: UILabel!
+        @IBOutlet weak var prixAvecMenu2: UILabel!
+    
+    // Contact section
+        @IBOutlet weak var horraire: UILabel!
+        @IBOutlet weak var Telephone: UILabel!
+        @IBOutlet weak var Adresse: UILabel!
+    
+    
+    
+    
     @IBOutlet weak var dernierDanse: UILabel!
-    @IBOutlet weak var nomPlat1: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +45,10 @@ class SecondViewController: UIViewController {
     
     }
     override func viewDidAppear(_ animated: Bool) {
-        self.nomPlat1?.text = name
+        self.nomPlat1?.text = namePlat1
+        self.logoRest?.image = logo
+        self.imgPlat1?.image = imgPlatt1
+        self.imgPlat2?.image = imgPlatt2
 
     }
     

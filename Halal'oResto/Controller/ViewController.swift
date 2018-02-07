@@ -8,7 +8,16 @@
 
 import UIKit
 
-var name = ""
+var logo = #imageLiteral(resourceName: "image18")
+var imgPlatt1 = #imageLiteral(resourceName: "image19")
+var imgPlatt2 = #imageLiteral(resourceName: "image19")
+var namePlat1 = ""
+var namePlat2 = ""
+var prixAvecMenu = 0.00
+var prixSansMenu = 0.00
+var adresse = ""
+var telephone = ""
+var horraire = ""
 
 class ViewController: UIViewController {
 
@@ -76,9 +85,11 @@ class ViewController: UIViewController {
 
 
    
-    @IBAction func Click(_ sender: Any)
+    @IBAction func clickResto2(_ sender: Any)
     {
-        name = MyVariables.platGoa.nom
+        
+        namePlat1 = MyVariables.platGoa.nom
+        
         performSegue(withIdentifier: "segue", sender: self)
 
         
@@ -87,6 +98,15 @@ class ViewController: UIViewController {
     }
     
    
+    @IBAction func clickResto3(_ sender: Any) {
+        logo = MyVariables.Goa.logo
+        namePlat1 = MyVariables.platGoa.nom
+        prixAvecMenu = MyVariables.platGoa.prix
+        imgPlatt1 = MyVariables.platGoa.image
+        imgPlatt2 = MyVariables.platGoa2.image
+        
+        performSegue(withIdentifier: "segue", sender: self)
+    }
     
 
     
