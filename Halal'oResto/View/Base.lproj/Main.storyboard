@@ -39,10 +39,6 @@
                                         <rect key="frame" x="8" y="101" width="76" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image15" translatesAutoresizingMaskIntoConstraints="NO" id="1wK-Va-9aw">
-                                        <rect key="frame" x="149" y="10" width="218" height="83"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B3B-pD-9we">
                                         <rect key="frame" x="17" y="4" width="89" height="89"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -51,9 +47,16 @@
                                         <rect key="frame" x="8" y="4" width="359" height="149"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <action selector="clickResto3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oHl-nK-cEb"/>
+                                            <action selector="clickResto1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6hv-X3-9KB"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXe-RO-3oz">
+                                        <rect key="frame" x="168" y="22" width="199" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -65,14 +68,6 @@
                                         <rect key="frame" x="22" y="21" width="50" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LfF-cF-1yg">
-                                        <rect key="frame" x="26" y="128" width="46" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <connections>
-                                            <action selector="kill:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QP3-83-lcF"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -114,7 +109,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1In-BA-jwl">
-                                        <rect key="frame" x="0.0" y="0.0" width="281" height="174"/>
+                                        <rect key="frame" x="263" y="165" width="18" height="9"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -130,8 +125,24 @@
                                             <segue destination="2qZ-zS-ari" kind="showDetail" identifier="segue" id="jnf-IO-1Tw"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwW-G1-JSv">
+                                        <rect key="frame" x="0.0" y="6" width="273" height="166"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="clickResto2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ewq-IP-heq"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBound" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k6p-w5-EfM" userLabel="viewRest3">
                                 <rect key="frame" x="94" y="504" width="281" height="163"/>
@@ -160,6 +171,13 @@
                                         <rect key="frame" x="8" y="8" width="68" height="69"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnV-1I-qd5">
+                                        <rect key="frame" x="8" y="0.0" width="265" height="155"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="clickResto4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mwa-TF-c5H"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
@@ -202,9 +220,8 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vT-Vr-WLg">
                                         <rect key="frame" x="8" y="8" width="273" height="173"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
                                         <connections>
-                                            <action selector="clickResto2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Xv-pl-K5I"/>
+                                            <action selector="clickResto3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="idh-6c-OLb"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -229,6 +246,7 @@
                         <outlet property="imgRest2" destination="khG-ex-Qos" id="mZT-sH-UFn"/>
                         <outlet property="imgRest3" destination="Fjj-a5-LBs" id="sf0-9Q-os6"/>
                         <outlet property="imgRest4" destination="3Y8-du-86Y" id="prk-jo-8a6"/>
+                        <outlet property="labelRest" destination="SXe-RO-3oz" id="aMW-iL-qEr"/>
                         <outlet property="labelRest1" destination="LYt-iT-AUw" id="gZ8-gq-JAf"/>
                         <outlet property="labelRest2" destination="7f0-Uw-z3S" id="923-5C-6sg"/>
                         <outlet property="labelRest3" destination="xpu-tK-kib" id="ri7-dw-ZCx"/>
@@ -375,13 +393,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5u6-eE-AqT" userLabel="NomPlat1">
-                                <rect key="frame" x="240" y="386" width="101" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3J-M2-hpl">
                                 <rect key="frame" x="23" y="611" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -417,6 +428,5 @@
     </scenes>
     <resources>
         <image name="image10" width="512" height="512"/>
-        <image name="image15" width="549" height="277"/>
     </resources>
 </document>

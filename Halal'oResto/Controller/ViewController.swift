@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     
         // Here the name of the restaurant
     
+            @IBOutlet weak var labelRest: UILabel!
     
         // Here the the picture's view
             @IBOutlet weak var rest1Menu1: UIImageView!
@@ -82,46 +83,11 @@ class ViewController: UIViewController {
         @IBOutlet weak var rest4Menu3: UIImageView!
     
     
-    @IBOutlet weak var killIT: UIButton!
     @IBOutlet weak var Resto1: UIView!
 
 
-   
-    @IBAction func clickResto2(_ sender: Any)
-    {
-        
-        logo = MyVariables.Goa.logo
-        
-        //View of first menu
-        imgPlatt1 = MyVariables.oTacos.plats[0].image
-        namePlat1 = MyVariables.oTacos.plats[0].nom
-        prixxSansMenu = MyVariables.oTacos.plats[0].prix
-        let prixAvecMenu1 = MyVariables.oTacos.plats[0].IsMenu(prix: 1.50)
-        prixxAvecMenu = String(prixAvecMenu1)
-        
-        
-        //View of second menu
-        imgPlatt2 = MyVariables.oTacos.plats[1].image
-        namePlat2 = MyVariables.oTacos.plats[1].nom
-        prixxSansMenu2 = MyVariables.oTacos.plats[1].prix
-        let prixAvecMenu2 = MyVariables.oTacos.plats[1].IsMenu(prix: 1.50)
-        prixxAvecMenu2 = String(prixAvecMenu2)
-        
-        //Contact section
-        horraire = ""+MyVariables.oTacos.horraireDebut+"h - "+MyVariables.Goa.horraireFin+"h"
-        adresse1 = MyVariables.oTacos.adresse
-        telephone1 = MyVariables.oTacos.telephone
-        performSegue(withIdentifier: "segue", sender: self)
-
-        
     
-        
-    }
-    
-    
-
-   
-    @IBAction func clickResto3(_ sender: Any) {
+    @IBAction func clickResto1(_ sender: Any) {
         logo = MyVariables.Goa.logo
         
         //View of first menu
@@ -146,6 +112,87 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "segue", sender: self)
     }
     
+    
+    @IBAction func clickResto2(_ sender: Any) {
+        logo = MyVariables.chickenAlpes.logo
+        
+        //View of first menu
+        imgPlatt1 = MyVariables.chickenAlpes.plats[0].image
+        namePlat1 = MyVariables.chickenAlpes.plats[0].nom
+        prixxSansMenu = MyVariables.chickenAlpes.plats[0].prix
+        let prixAvecMenu1 = MyVariables.chickenAlpes.plats[0].IsMenu(prix: 1.50)
+        prixxAvecMenu = String(prixAvecMenu1)
+
+        //View of second menu
+        imgPlatt2 = MyVariables.chickenAlpes.plats[1].image
+        namePlat2 = MyVariables.chickenAlpes.plats[1].nom
+        prixxSansMenu2 = MyVariables.chickenAlpes.plats[1].prix
+        let prixAvecMenu2 = MyVariables.chickenAlpes.plats[1].IsMenu(prix: 1.50)
+        prixxAvecMenu2 = String(prixAvecMenu2)
+        
+        //Contact section
+        horraire = ""+MyVariables.chickenAlpes.horraireDebut+"h - "+MyVariables.chickenAlpes.horraireFin+"h"
+        adresse1 = MyVariables.chickenAlpes.adresse
+        telephone1 = MyVariables.chickenAlpes.telephone
+        performSegue(withIdentifier: "segue", sender: self)
+        
+    }
+    
+    @IBAction func clickResto3(_ sender: Any) {
+        logo = MyVariables.oTacos.logo
+        
+        //View of first menu
+        imgPlatt1 = MyVariables.oTacos.plats[0].image
+        namePlat1 = MyVariables.oTacos.plats[0].nom
+        prixxSansMenu = MyVariables.oTacos.plats[0].prix
+        let prixAvecMenu1 = MyVariables.oTacos.plats[0].IsMenu(prix: 1.50)
+        prixxAvecMenu = String(prixAvecMenu1)
+        
+        
+        //View of second menu
+        imgPlatt2 = MyVariables.oTacos.plats[1].image
+        namePlat2 = MyVariables.oTacos.plats[1].nom
+        prixxSansMenu2 = MyVariables.oTacos.plats[1].prix
+        let prixAvecMenu2 = MyVariables.oTacos.plats[1].IsMenu(prix: 1.50)
+        prixxAvecMenu2 = String(prixAvecMenu2)
+        
+        //Contact section
+        horraire = ""+MyVariables.oTacos.horraireDebut+"h - "+MyVariables.oTacos.horraireFin+"h"
+        adresse1 = MyVariables.oTacos.adresse
+        telephone1 = MyVariables.oTacos.telephone
+        performSegue(withIdentifier: "segue", sender: self)
+        
+    }
+    
+    @IBAction func clickResto4(_ sender: Any) {
+        logo = MyVariables.dominosPizza.logo
+        
+        //View of first menu
+        imgPlatt1 = MyVariables.dominosPizza.plats[0].image
+        namePlat1 = MyVariables.dominosPizza.plats[0].nom
+        prixxSansMenu = MyVariables.dominosPizza.plats[0].prix
+        let prixAvecMenu1 = MyVariables.dominosPizza.plats[0].IsMenu(prix: 1.50)
+        prixxAvecMenu = String(prixAvecMenu1)
+        
+        
+        //View of second menu
+        imgPlatt2 = MyVariables.dominosPizza.plats[1].image
+        namePlat2 = MyVariables.dominosPizza.plats[1].nom
+        prixxSansMenu2 = MyVariables.dominosPizza.plats[1].prix
+        let prixAvecMenu2 = MyVariables.dominosPizza.plats[1].IsMenu(prix: 1.50)
+        prixxAvecMenu2 = String(prixAvecMenu2)
+        
+        //Contact section
+        horraire = ""+MyVariables.dominosPizza.horraireDebut+"h - "+MyVariables.dominosPizza.horraireFin+"h"
+        adresse1 = MyVariables.dominosPizza.adresse
+        telephone1 = MyVariables.dominosPizza.telephone
+        performSegue(withIdentifier: "segue", sender: self)
+    }
+    
+    
+
+   
+  
 
     
     override func viewDidLoad() {
@@ -154,6 +201,9 @@ class ViewController: UIViewController {
         // #1 Goa - Declare stuff for the First restaurant view, in this case it's the Goa
             // Declare the logo of the restaurant
                 imgRest1.image = MyVariables.Goa.logo
+        
+            // Declare here the name of the restaurant
+                labelRest.text = MyVariables.Goa.nom
         
             // Declare the picture will be in the ImageView
                 rest1Menu1.image = MyVariables.Goa.plats[0].image

@@ -43,8 +43,8 @@ struct MyVariables {
     
     //Plat
     static var platDominos = Plat(nom2: "Pizza", prix2: 4.50, image2: #imageLiteral(resourceName: "image25"))
-    static var platDominos2 = Plat(nom2: "Bucket", prix2: 4.50, image2: #imageLiteral(resourceName: "image26"))
-    static var platDominos3 = Plat(nom2: "Calzone", prix2: 4.50, image2: #imageLiteral(resourceName: "image22"))
+    static var platDominos2 = Plat(nom2: "Calzone", prix2: 4.50, image2: #imageLiteral(resourceName: "image26"))
+    static var platDominos3 = Plat(nom2: "Bucket", prix2: 4.50, image2: #imageLiteral(resourceName: "image22"))
     // Dominos Pizza
     static var dominosPizza = Restaurant(nom: "Dominos Pizza", horraireDebut:"8", horraireFin:"15",telephone:"0626263545",adresse:"14 rue salamandre",logo2: #imageLiteral(resourceName: "image27"), plats: [platDominos, platDominos2, platDominos3])
     
