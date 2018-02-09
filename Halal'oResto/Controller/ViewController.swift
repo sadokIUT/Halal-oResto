@@ -90,8 +90,27 @@ class ViewController: UIViewController {
     @IBAction func clickResto2(_ sender: Any)
     {
         
-        namePlat1 = MyVariables.platGoa.nom
+        logo = MyVariables.Goa.logo
         
+        //View of first menu
+        imgPlatt1 = MyVariables.oTacos.plats[0].image
+        namePlat1 = MyVariables.oTacos.plats[0].nom
+        prixxSansMenu = MyVariables.oTacos.plats[0].prix
+        let prixAvecMenu1 = MyVariables.oTacos.plats[0].IsMenu(prix: 1.50)
+        prixxAvecMenu = String(prixAvecMenu1)
+        
+        
+        //View of second menu
+        imgPlatt2 = MyVariables.oTacos.plats[1].image
+        namePlat2 = MyVariables.oTacos.plats[1].nom
+        prixxSansMenu2 = MyVariables.oTacos.plats[1].prix
+        let prixAvecMenu2 = MyVariables.oTacos.plats[1].IsMenu(prix: 1.50)
+        prixxAvecMenu2 = String(prixAvecMenu2)
+        
+        //Contact section
+        horraire = ""+MyVariables.oTacos.horraireDebut+"h - "+MyVariables.Goa.horraireFin+"h"
+        adresse1 = MyVariables.oTacos.adresse
+        telephone1 = MyVariables.oTacos.telephone
         performSegue(withIdentifier: "segue", sender: self)
 
         
@@ -99,15 +118,8 @@ class ViewController: UIViewController {
         
     }
     
-<<<<<<< HEAD
-    @IBAction func Click2(_ sender: Any) {
-        
-        name = MyVariables.platGoa.nom
-        performSegue(withIdentifier: "segue", sender: self)
-        
-    }
     
-=======
+
    
     @IBAction func clickResto3(_ sender: Any) {
         logo = MyVariables.Goa.logo
@@ -133,7 +145,6 @@ class ViewController: UIViewController {
         telephone1 = MyVariables.Goa.telephone
         performSegue(withIdentifier: "segue", sender: self)
     }
->>>>>>> f3841e6fb9a9be3fcd042427026e377959d26006
     
 
     

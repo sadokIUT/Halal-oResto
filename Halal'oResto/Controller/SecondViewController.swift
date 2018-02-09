@@ -82,4 +82,8 @@ class SecondViewController: UIViewController {
         
         
     }
+    
+    @IBAction func Back(_ sender: Any) {
+        performSegue(withIdentifier: "segueBack", sender: self)
+    }
 }
