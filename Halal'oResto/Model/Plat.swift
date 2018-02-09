@@ -40,9 +40,9 @@ class Plat: NSObject {
     
     func IsMenu(prix: Double) -> Double
     {
-        prix + 1.50
-    
-    return prix;
+        self.prix = self.prix+prix
+    return self.prix
+   
     }
     
 }

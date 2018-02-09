@@ -11,15 +11,15 @@ import UIKit
 class Restaurant {
     var nom: String
     var logo: UIImage
-    var horraireDebut :Int
-    var horraireFin :Int
+    var horraireDebut :String
+    var horraireFin :String
     var telephone:String
     var adresse:String
     var plats : [Plat] = []
    
     
     
-    init(nom: String, horraireDebut: Int, horraireFin: Int, telephone:String, adresse:String, logo2: UIImage)
+    init(nom: String, horraireDebut: String, horraireFin: String, telephone:String, adresse:String, logo2: UIImage, plats: [Plat] )
     {
         self.nom = nom
         self.horraireDebut = horraireDebut
@@ -27,6 +27,7 @@ class Restaurant {
         self.telephone = telephone
         self.adresse = adresse
         self.logo = logo2;
+        self.plats = plats
        
         
     }
@@ -36,12 +37,12 @@ class Restaurant {
         return nom
     }
     
-    func getHorraireDebut() -> Int
+    func getHorraireDebut() -> String
     {
         return horraireDebut
     }
     
-    func getHorraireFin() -> Int
+    func getHorraireFin() -> String
     {
         return horraireFin
     }
