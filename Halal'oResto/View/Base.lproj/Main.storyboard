@@ -51,7 +51,7 @@
                                         <rect key="frame" x="8" y="4" width="359" height="149"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <action selector="clickResto3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oHl-nK-cEb"/>
+                                            <action selector="clickResto1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O9Y-sO-Xcc"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -204,7 +204,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <connections>
-                                            <action selector="clickResto2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Xv-pl-K5I"/>
+                                            <action selector="clickResto3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dce-OQ-Dop"/>
                                         </connections>
                                     </button>
                                 </subviews>

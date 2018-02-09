@@ -87,10 +87,10 @@ class ViewController: UIViewController {
 
 
    
-    @IBAction func clickResto2(_ sender: Any)
+    @IBAction func clickResto3(_ sender: Any)
     {
         
-        logo = MyVariables.Goa.logo
+        logo = MyVariables.oTacos.logo
         
         //View of first menu
         imgPlatt1 = MyVariables.oTacos.plats[0].image
@@ -121,7 +121,7 @@ class ViewController: UIViewController {
     
 
    
-    @IBAction func clickResto3(_ sender: Any) {
+    @IBAction func clickResto1(_ sender: Any) {
         logo = MyVariables.Goa.logo
         
         //View of first menu
