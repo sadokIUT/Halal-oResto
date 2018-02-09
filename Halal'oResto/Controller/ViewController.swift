@@ -82,21 +82,58 @@ class ViewController: UIViewController {
         @IBOutlet weak var rest4Menu3: UIImageView!
     
     
-    @IBOutlet weak var killIT: UIButton!
     @IBOutlet weak var Resto1: UIView!
 
 
-   
-    @IBAction func clickResto2(_ sender: Any)
-    {
+    @IBAction func clickResto2(_ sender: Any) {
+        logo = MyVariables.chickenAlpes.logo
         
-        namePlat1 = MyVariables.platGoa.nom
+        //View of first menu
+        imgPlatt1 = MyVariables.chickenAlpes.plats[0].image
+        namePlat1 = MyVariables.chickenAlpes.plats[0].nom
+        prixxSansMenu = MyVariables.chickenAlpes.plats[0].prix
+        let prixAvecMenu1 = MyVariables.chickenAlpes.plats[0].IsMenu(prix: 1.50)
+        prixxAvecMenu = String(prixAvecMenu1)
         
+        
+        //View of second menu
+        imgPlatt2 = MyVariables.chickenAlpes.plats[1].image
+        namePlat2 = MyVariables.chickenAlpes.plats[1].nom
+        prixxSansMenu2 = MyVariables.chickenAlpes.plats[1].prix
+        let prixAvecMenu2 = MyVariables.chickenAlpes.plats[1].IsMenu(prix: 1.50)
+        prixxAvecMenu2 = String(prixAvecMenu2)
+        
+        //Contact section
+        horraire = ""+MyVariables.chickenAlpes.horraireDebut+"h - "+MyVariables.chickenAlpes.horraireFin+"h"
+        adresse1 = MyVariables.chickenAlpes.adresse
+        telephone1 = MyVariables.chickenAlpes.telephone
         performSegue(withIdentifier: "segue", sender: self)
-
         
+    }
     
+    @IBAction func clickResto4(_ sender: Any) {
+        logo = MyVariables.dominosPizza.logo
         
+        //View of first menu
+        imgPlatt1 = MyVariables.dominosPizza.plats[0].image
+        namePlat1 = MyVariables.dominosPizza.plats[0].nom
+        prixxSansMenu = MyVariables.dominosPizza.plats[0].prix
+        let prixAvecMenu1 = MyVariables.dominosPizza.plats[0].IsMenu(prix: 1.50)
+        prixxAvecMenu = String(prixAvecMenu1)
+        
+        
+        //View of second menu
+        imgPlatt2 = MyVariables.dominosPizza.plats[1].image
+        namePlat2 = MyVariables.dominosPizza.plats[1].nom
+        prixxSansMenu2 = MyVariables.dominosPizza.plats[1].prix
+        let prixAvecMenu2 = MyVariables.dominosPizza.plats[1].IsMenu(prix: 1.50)
+        prixxAvecMenu2 = String(prixAvecMenu2)
+        
+        //Contact section
+        horraire = ""+MyVariables.dominosPizza.horraireDebut+"h - "+MyVariables.dominosPizza.horraireFin+"h"
+        adresse1 = MyVariables.dominosPizza.adresse
+        telephone1 = MyVariables.dominosPizza.telephone
+        performSegue(withIdentifier: "segue", sender: self)
     }
     
    
