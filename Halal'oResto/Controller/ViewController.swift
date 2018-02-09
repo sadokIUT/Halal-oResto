@@ -86,7 +86,13 @@ class ViewController: UIViewController {
         
     }
     
-   
+    @IBAction func Click2(_ sender: Any) {
+        
+        name = MyVariables.platGoa.nom
+        performSegue(withIdentifier: "segue", sender: self)
+        
+    }
+    
     
 
     
