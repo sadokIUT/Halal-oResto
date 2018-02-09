@@ -8,7 +8,18 @@
 
 import UIKit
 
-var name = ""
+var logo = #imageLiteral(resourceName: "image18")
+var imgPlatt1 = #imageLiteral(resourceName: "image19")
+var imgPlatt2 = #imageLiteral(resourceName: "image19")
+var namePlat1 = ""
+var namePlat2 = ""
+var prixxAvecMenu = ""
+var prixxSansMenu = 0.00
+var prixxAvecMenu2 = ""
+var prixxSansMenu2 = 0.00
+var adresse1 = ""
+var telephone1 = ""
+var horraire = ""
 
 class ViewController: UIViewController {
 
@@ -76,9 +87,11 @@ class ViewController: UIViewController {
 
 
    
-    @IBAction func Click(_ sender: Any)
+    @IBAction func clickResto2(_ sender: Any)
     {
-        name = MyVariables.platGoa.nom
+        
+        namePlat1 = MyVariables.platGoa.nom
+        
         performSegue(withIdentifier: "segue", sender: self)
 
         
@@ -86,6 +99,7 @@ class ViewController: UIViewController {
         
     }
     
+<<<<<<< HEAD
     @IBAction func Click2(_ sender: Any) {
         
         name = MyVariables.platGoa.nom
@@ -93,6 +107,33 @@ class ViewController: UIViewController {
         
     }
     
+=======
+   
+    @IBAction func clickResto3(_ sender: Any) {
+        logo = MyVariables.Goa.logo
+        
+        //View of first menu
+        imgPlatt1 = MyVariables.Goa.plats[0].image
+        namePlat1 = MyVariables.Goa.plats[0].nom
+        prixxSansMenu = MyVariables.Goa.plats[0].prix
+        let prixAvecMenu1 = MyVariables.Goa.plats[0].IsMenu(prix: 1.50)
+        prixxAvecMenu = String(prixAvecMenu1)
+        
+        
+        //View of second menu
+        imgPlatt2 = MyVariables.Goa.plats[1].image
+        namePlat2 = MyVariables.Goa.plats[1].nom
+        prixxSansMenu2 = MyVariables.Goa.plats[1].prix
+        let prixAvecMenu2 = MyVariables.Goa.plats[1].IsMenu(prix: 1.50)
+        prixxAvecMenu2 = String(prixAvecMenu2)
+        
+        //Contact section
+        horraire = ""+MyVariables.Goa.horraireDebut+"h - "+MyVariables.Goa.horraireFin+"h"
+        adresse1 = MyVariables.Goa.adresse
+        telephone1 = MyVariables.Goa.telephone
+        performSegue(withIdentifier: "segue", sender: self)
+    }
+>>>>>>> f3841e6fb9a9be3fcd042427026e377959d26006
     
 
     
@@ -104,9 +145,9 @@ class ViewController: UIViewController {
                 imgRest1.image = MyVariables.Goa.logo
         
             // Declare the picture will be in the ImageView
-                rest1Menu1.image = MyVariables.platGoa.image
-                rest1Menu2.image = MyVariables.platGoa2.image
-                rest1Menu3.image = MyVariables.platGoa3.image
+                rest1Menu1.image = MyVariables.Goa.plats[0].image
+                rest1Menu2.image = MyVariables.Goa.plats[1].image
+                rest1Menu3.image = MyVariables.Goa.plats[2].image
         
         
         // #2 Chicken Alpes - Declare stuff for the Second restaurant view, in this case it's the Chicken Alpes
