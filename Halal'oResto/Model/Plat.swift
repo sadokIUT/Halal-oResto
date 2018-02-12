@@ -37,12 +37,6 @@ class Plat: NSObject {
     {
         return self.image;
     }
-    
-    func IsMenu(prix: Double) -> Double
-    {
-        self.prix = self.prix+prix
-    return self.prix
-   
-    }
+
     
 }

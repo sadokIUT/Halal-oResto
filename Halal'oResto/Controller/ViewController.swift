@@ -94,7 +94,7 @@ class ViewController: UIViewController {
         imgPlatt1 = MyVariables.Goa.plats[0].image
         namePlat1 = MyVariables.Goa.plats[0].nom
         prixxSansMenu = MyVariables.Goa.plats[0].prix
-        let prixAvecMenu1 = MyVariables.Goa.plats[0].IsMenu(prix: 1.50)
+        let prixAvecMenu1 = MyVariables.Goa.plats[0].prix + 1.50
         prixxAvecMenu = String(prixAvecMenu1)
         
         
@@ -102,7 +102,7 @@ class ViewController: UIViewController {
         imgPlatt2 = MyVariables.Goa.plats[1].image
         namePlat2 = MyVariables.Goa.plats[1].nom
         prixxSansMenu2 = MyVariables.Goa.plats[1].prix
-        let prixAvecMenu2 = MyVariables.Goa.plats[1].IsMenu(prix: 1.50)
+        let prixAvecMenu2 = MyVariables.Goa.plats[1].prix + 1.50
         prixxAvecMenu2 = String(prixAvecMenu2)
         
         //Contact section
@@ -120,14 +120,14 @@ class ViewController: UIViewController {
         imgPlatt1 = MyVariables.chickenAlpes.plats[0].image
         namePlat1 = MyVariables.chickenAlpes.plats[0].nom
         prixxSansMenu = MyVariables.chickenAlpes.plats[0].prix
-        let prixAvecMenu1 = MyVariables.chickenAlpes.plats[0].IsMenu(prix: 1.50)
+        let prixAvecMenu1 = MyVariables.chickenAlpes.plats[0].prix + 1.50
         prixxAvecMenu = String(prixAvecMenu1)
 
         //View of second menu
         imgPlatt2 = MyVariables.chickenAlpes.plats[1].image
         namePlat2 = MyVariables.chickenAlpes.plats[1].nom
         prixxSansMenu2 = MyVariables.chickenAlpes.plats[1].prix
-        let prixAvecMenu2 = MyVariables.chickenAlpes.plats[1].IsMenu(prix: 1.50)
+        let prixAvecMenu2 = MyVariables.chickenAlpes.plats[1].prix + 1.50
         prixxAvecMenu2 = String(prixAvecMenu2)
         
         //Contact section
@@ -145,7 +145,7 @@ class ViewController: UIViewController {
         imgPlatt1 = MyVariables.oTacos.plats[0].image
         namePlat1 = MyVariables.oTacos.plats[0].nom
         prixxSansMenu = MyVariables.oTacos.plats[0].prix
-        let prixAvecMenu1 = MyVariables.oTacos.plats[0].IsMenu(prix: 1.50)
+        let prixAvecMenu1 = MyVariables.oTacos.plats[0].prix + 1.50
         prixxAvecMenu = String(prixAvecMenu1)
         
         
@@ -153,7 +153,7 @@ class ViewController: UIViewController {
         imgPlatt2 = MyVariables.oTacos.plats[1].image
         namePlat2 = MyVariables.oTacos.plats[1].nom
         prixxSansMenu2 = MyVariables.oTacos.plats[1].prix
-        let prixAvecMenu2 = MyVariables.oTacos.plats[1].IsMenu(prix: 1.50)
+        let prixAvecMenu2 = MyVariables.oTacos.plats[1].prix + 1.50
         prixxAvecMenu2 = String(prixAvecMenu2)
         
         //Contact section
@@ -161,6 +161,7 @@ class ViewController: UIViewController {
         adresse1 = MyVariables.oTacos.adresse
         telephone1 = MyVariables.oTacos.telephone
         performSegue(withIdentifier: "segue", sender: self)
+        
         
     }
     
@@ -171,7 +172,7 @@ class ViewController: UIViewController {
         imgPlatt1 = MyVariables.dominosPizza.plats[0].image
         namePlat1 = MyVariables.dominosPizza.plats[0].nom
         prixxSansMenu = MyVariables.dominosPizza.plats[0].prix
-        let prixAvecMenu1 = MyVariables.dominosPizza.plats[0].IsMenu(prix: 1.50)
+        let prixAvecMenu1 = MyVariables.dominosPizza.plats[0].prix + 1.50
         prixxAvecMenu = String(prixAvecMenu1)
         
         
@@ -179,7 +180,7 @@ class ViewController: UIViewController {
         imgPlatt2 = MyVariables.dominosPizza.plats[1].image
         namePlat2 = MyVariables.dominosPizza.plats[1].nom
         prixxSansMenu2 = MyVariables.dominosPizza.plats[1].prix
-        let prixAvecMenu2 = MyVariables.dominosPizza.plats[1].IsMenu(prix: 1.50)
+        let prixAvecMenu2 = MyVariables.dominosPizza.plats[1].prix + 1.50
         prixxAvecMenu2 = String(prixAvecMenu2)
         
         //Contact section

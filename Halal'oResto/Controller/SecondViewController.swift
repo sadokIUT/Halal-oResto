@@ -12,6 +12,7 @@ import UIKit
 class SecondViewController: UIViewController {
     
     
+    @IBOutlet weak var ok: UILabel!
     // Top Section logo
         @IBOutlet weak var logoRest: UIImageView!
     
@@ -49,7 +50,6 @@ class SecondViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         
         self.logoRest?.image = logo
-        
         //view for first menu
         self.nomPlat1?.text = namePlat1
         self.imgPlat1?.image = imgPlatt1
