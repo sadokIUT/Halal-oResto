@@ -8,6 +8,8 @@
 
 import UIKit
 
+var restoTag : [Restaurant] = []
+var myString = ""
 var logo = #imageLiteral(resourceName: "image18")
 var imgPlatt1 = #imageLiteral(resourceName: "image19")
 var imgPlatt2 = #imageLiteral(resourceName: "image19")
@@ -22,7 +24,30 @@ var telephone1 = ""
 var horraire = ""
 
 class ViewController: UIViewController {
+ @IBOutlet weak var search: UITextField!
+    @IBAction func searchButton(_ sender: Any) {
+        if (search.text != "")
+        {
+            myString = search.text!
+            for resto in MyVariables.restaurants{
+                for tag in resto.categories{
+                    if(myString == tag){
+                        restoTag.append(resto)
+                    }
+                }
+            }
+            for res in restoTag {
+                print(res.getNom())
+            }
+        }
+        
 
+        performSegue(withIdentifier: "segue2", sender: self)
+
+    }
+    
+   
+    
     // #1 Var for the first restaurant view
 
         // Initialize here the logo of the restaurant
@@ -161,7 +186,6 @@ class ViewController: UIViewController {
         adresse1 = MyVariables.oTacos.adresse
         telephone1 = MyVariables.oTacos.telephone
         performSegue(withIdentifier: "segue", sender: self)
-        
         
     }
     

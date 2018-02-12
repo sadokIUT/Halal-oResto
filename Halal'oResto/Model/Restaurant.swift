@@ -16,18 +16,19 @@ class Restaurant {
     var telephone:String
     var adresse:String
     var plats : [Plat] = []
-   
+    var categories : [String]
     
     
-    init(nom: String, horraireDebut: String, horraireFin: String, telephone:String, adresse:String, logo2: UIImage, plats: [Plat] )
+    init(nom: String, horraireDebut: String, horraireFin: String, telephone:String, adresse:String, logo2: UIImage, plats: [Plat], categories: [String] )
     {
         self.nom = nom
         self.horraireDebut = horraireDebut
         self.horraireFin = horraireFin
         self.telephone = telephone
         self.adresse = adresse
-        self.logo = logo2;
+        self.logo = logo2
         self.plats = plats
+        self.categories = categories
        
         
     }

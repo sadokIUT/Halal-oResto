@@ -14,6 +14,7 @@
 		7EA362172020587700BBAABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA362152020587700BBAABF /* LaunchScreen.storyboard */; };
 		7EA362222020587700BBAABF /* Halal_oRestoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA362212020587700BBAABF /* Halal_oRestoTests.swift */; };
 		7EA3622D2020587700BBAABF /* Halal_oRestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */; };
+		7ECB346A2031979E0017B34D /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB34692031979E0017B34D /* searchViewController.swift */; };
 		9034AF3020207CB800002D49 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034AF2F20207CB800002D49 /* Restaurant.swift */; };
 		906AA31E2029BAEB008C441B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AA31D2029BAEB008C441B /* SecondViewController.swift */; };
 		906AA3202029C497008C441B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AA31F2029C497008C441B /* Data.swift */; };
@@ -51,6 +52,7 @@
 		7EA362282020587700BBAABF /* Halal'oRestoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Halal'oRestoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA3622C2020587700BBAABF /* Halal_oRestoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halal_oRestoUITests.swift; sourceTree = "<group>"; };
 		7EA3622E2020587700BBAABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ECB34692031979E0017B34D /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		9034AF2F20207CB800002D49 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		906AA31D2029BAEB008C441B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		906AA31F2029C497008C441B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				7EA3620E2020587700BBAABF /* ViewController.swift */,
 				906AA31D2029BAEB008C441B /* SecondViewController.swift */,
+				7ECB34692031979E0017B34D /* searchViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECB346A2031979E0017B34D /* searchViewController.swift in Sources */,
 				7EA3620F2020587700BBAABF /* ViewController.swift in Sources */,
 				906AA3202029C497008C441B /* Data.swift in Sources */,
 				7EA3620D2020587700BBAABF /* AppDelegate.swift in Sources */,
