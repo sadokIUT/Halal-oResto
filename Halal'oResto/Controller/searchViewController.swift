@@ -95,6 +95,8 @@ var logoo = #imageLiteral(resourceName: "image18")
         performSegue(withIdentifier: "segue3", sender: self)
     }
     
+    @IBOutlet weak var octopus: UIImageView!
+    @IBOutlet weak var noodle: UIImageView!
     @IBAction func restoTag4(_ sender: Any) {
         logo = restoTag[3].logo
         
@@ -119,9 +121,10 @@ var logoo = #imageLiteral(resourceName: "image18")
         telephone1 = restoTag[3].telephone
         performSegue(withIdentifier: "segue3", sender: self)
     }
+    @IBOutlet weak var nouille: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        nouille.loadGif(name: "image5")
         // Do any additional setup after loading the view.
     }
 

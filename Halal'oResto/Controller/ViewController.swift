@@ -8,6 +8,7 @@
 
 import UIKit
 
+var nameRest = ""
 var restoTag : [Restaurant] = []
 var myString = ""
 var logo = #imageLiteral(resourceName: "image18")
@@ -24,14 +25,16 @@ var telephone1 = ""
 var horraire = ""
 
 class ViewController: UIViewController {
- @IBOutlet weak var search: UITextField!
+    @IBOutlet weak var buttonSearch: UIButton!
+    @IBOutlet weak var search: UITextField!
     @IBAction func searchButton(_ sender: Any) {
         if (search.text != "")
         {
+            restoTag = []
             myString = search.text!
             for resto in MyVariables.restaurants{
                 for tag in resto.categories{
-                    if(myString == tag){
+                    if(myString.lowercased() == tag){
                         restoTag.append(resto)
                     }
                 }
@@ -39,10 +42,11 @@ class ViewController: UIViewController {
             for res in restoTag {
                 print(res.getNom())
             }
+            performSegue(withIdentifier: "segue2", sender: self)
         }
         
 
-        performSegue(withIdentifier: "segue2", sender: self)
+        
 
     }
     
@@ -113,6 +117,9 @@ class ViewController: UIViewController {
 
     
     @IBAction func clickResto1(_ sender: Any) {
+        
+        nameRest = MyVariables.Goa.nom
+        
         logo = MyVariables.Goa.logo
         
         //View of first menu
@@ -139,6 +146,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func clickResto2(_ sender: Any) {
+        nameRest = MyVariables.chickenAlpes.nom
         logo = MyVariables.chickenAlpes.logo
         
         //View of first menu
@@ -164,6 +172,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickResto3(_ sender: Any) {
+        nameRest = MyVariables.oTacos.nom
         logo = MyVariables.oTacos.logo
         
         //View of first menu
@@ -190,6 +199,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickResto4(_ sender: Any) {
+        nameRest = MyVariables.dominosPizza.nom
         logo = MyVariables.dominosPizza.logo
         
         //View of first menu
@@ -219,9 +229,9 @@ class ViewController: UIViewController {
    
   
 
+    @IBOutlet weak var lense: UIImageView!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
         
         // #1 Goa - Declare stuff for the First restaurant view, in this case it's the Goa
             // Declare the logo of the restaurant
