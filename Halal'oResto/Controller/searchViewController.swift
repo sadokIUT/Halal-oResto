@@ -143,7 +143,10 @@ var logoo = #imageLiteral(resourceName: "image18")
         }
     }
     
-
+    @IBAction func back(_ sender: Any) {
+        performSegue(withIdentifier: "segue4", sender: self)
+    }
+    
     
 
 
