@@ -8,6 +8,9 @@
 
 import UIKit
 
+var nameRest = ""
+var restoTag : [Restaurant] = []
+var myString = ""
 var logo = #imageLiteral(resourceName: "image18")
 var imgPlatt1 = #imageLiteral(resourceName: "image19")
 var imgPlatt2 = #imageLiteral(resourceName: "image19")
@@ -22,7 +25,33 @@ var telephone1 = ""
 var horraire = ""
 
 class ViewController: UIViewController {
+    @IBOutlet weak var buttonSearch: UIButton!
+    @IBOutlet weak var search: UITextField!
+    @IBAction func searchButton(_ sender: Any) {
+        if (search.text != "")
+        {
+            restoTag = []
+            myString = search.text!
+            for resto in MyVariables.restaurants{
+                for tag in resto.categories{
+                    if(myString.lowercased() == tag){
+                        restoTag.append(resto)
+                    }
+                }
+            }
+            for res in restoTag {
+                print(res.getNom())
+            }
+            performSegue(withIdentifier: "segue2", sender: self)
+        }
+        
 
+        
+
+    }
+    
+   
+    
     // #1 Var for the first restaurant view
 
         // Initialize here the logo of the restaurant
@@ -88,13 +117,16 @@ class ViewController: UIViewController {
 
     
     @IBAction func clickResto1(_ sender: Any) {
+        
+        nameRest = MyVariables.Goa.nom
+        
         logo = MyVariables.Goa.logo
         
         //View of first menu
         imgPlatt1 = MyVariables.Goa.plats[0].image
         namePlat1 = MyVariables.Goa.plats[0].nom
         prixxSansMenu = MyVariables.Goa.plats[0].prix
-        let prixAvecMenu1 = MyVariables.Goa.plats[0].IsMenu(prix: 1.50)
+        let prixAvecMenu1 = MyVariables.Goa.plats[0].prix + 1.50
         prixxAvecMenu = String(prixAvecMenu1)
         
         
@@ -102,7 +134,7 @@ class ViewController: UIViewController {
         imgPlatt2 = MyVariables.Goa.plats[1].image
         namePlat2 = MyVariables.Goa.plats[1].nom
         prixxSansMenu2 = MyVariables.Goa.plats[1].prix
-        let prixAvecMenu2 = MyVariables.Goa.plats[1].IsMenu(prix: 1.50)
+        let prixAvecMenu2 = MyVariables.Goa.plats[1].prix + 1.50
         prixxAvecMenu2 = String(prixAvecMenu2)
         
         //Contact section
@@ -114,20 +146,21 @@ class ViewController: UIViewController {
     
     
     @IBAction func clickResto2(_ sender: Any) {
+        nameRest = MyVariables.chickenAlpes.nom
         logo = MyVariables.chickenAlpes.logo
         
         //View of first menu
         imgPlatt1 = MyVariables.chickenAlpes.plats[0].image
         namePlat1 = MyVariables.chickenAlpes.plats[0].nom
         prixxSansMenu = MyVariables.chickenAlpes.plats[0].prix
-        let prixAvecMenu1 = MyVariables.chickenAlpes.plats[0].IsMenu(prix: 1.50)
+        let prixAvecMenu1 = MyVariables.chickenAlpes.plats[0].prix + 1.50
         prixxAvecMenu = String(prixAvecMenu1)
 
         //View of second menu
         imgPlatt2 = MyVariables.chickenAlpes.plats[1].image
         namePlat2 = MyVariables.chickenAlpes.plats[1].nom
         prixxSansMenu2 = MyVariables.chickenAlpes.plats[1].prix
-        let prixAvecMenu2 = MyVariables.chickenAlpes.plats[1].IsMenu(prix: 1.50)
+        let prixAvecMenu2 = MyVariables.chickenAlpes.plats[1].prix + 1.50
         prixxAvecMenu2 = String(prixAvecMenu2)
         
         //Contact section
@@ -139,13 +172,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickResto3(_ sender: Any) {
+        nameRest = MyVariables.oTacos.nom
         logo = MyVariables.oTacos.logo
         
         //View of first menu
         imgPlatt1 = MyVariables.oTacos.plats[0].image
         namePlat1 = MyVariables.oTacos.plats[0].nom
         prixxSansMenu = MyVariables.oTacos.plats[0].prix
-        let prixAvecMenu1 = MyVariables.oTacos.plats[0].IsMenu(prix: 1.50)
+        let prixAvecMenu1 = MyVariables.oTacos.plats[0].prix + 1.50
         prixxAvecMenu = String(prixAvecMenu1)
         
         
@@ -153,7 +187,7 @@ class ViewController: UIViewController {
         imgPlatt2 = MyVariables.oTacos.plats[1].image
         namePlat2 = MyVariables.oTacos.plats[1].nom
         prixxSansMenu2 = MyVariables.oTacos.plats[1].prix
-        let prixAvecMenu2 = MyVariables.oTacos.plats[1].IsMenu(prix: 1.50)
+        let prixAvecMenu2 = MyVariables.oTacos.plats[1].prix + 1.50
         prixxAvecMenu2 = String(prixAvecMenu2)
         
         //Contact section
@@ -165,13 +199,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickResto4(_ sender: Any) {
+        nameRest = MyVariables.dominosPizza.nom
         logo = MyVariables.dominosPizza.logo
         
         //View of first menu
         imgPlatt1 = MyVariables.dominosPizza.plats[0].image
         namePlat1 = MyVariables.dominosPizza.plats[0].nom
         prixxSansMenu = MyVariables.dominosPizza.plats[0].prix
-        let prixAvecMenu1 = MyVariables.dominosPizza.plats[0].IsMenu(prix: 1.50)
+        let prixAvecMenu1 = MyVariables.dominosPizza.plats[0].prix + 1.50
         prixxAvecMenu = String(prixAvecMenu1)
         
         
@@ -179,7 +214,7 @@ class ViewController: UIViewController {
         imgPlatt2 = MyVariables.dominosPizza.plats[1].image
         namePlat2 = MyVariables.dominosPizza.plats[1].nom
         prixxSansMenu2 = MyVariables.dominosPizza.plats[1].prix
-        let prixAvecMenu2 = MyVariables.dominosPizza.plats[1].IsMenu(prix: 1.50)
+        let prixAvecMenu2 = MyVariables.dominosPizza.plats[1].prix + 1.50
         prixxAvecMenu2 = String(prixAvecMenu2)
         
         //Contact section
@@ -194,9 +229,9 @@ class ViewController: UIViewController {
    
   
 
+    @IBOutlet weak var lense: UIImageView!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
         
         // #1 Goa - Declare stuff for the First restaurant view, in this case it's the Goa
             // Declare the logo of the restaurant
